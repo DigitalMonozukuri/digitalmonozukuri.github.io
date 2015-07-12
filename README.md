@@ -1,0 +1,1 @@
+# digitalmonozukuri.github.io
