@@ -165,6 +165,11 @@ blockquote cite {
 	margin-bottom: 33px;
 }
 
+#site-title img {
+	height: 100px;
+	width: auto;
+}
+
 .header-top {
 	background: #2e3438;
 	color: #666;
