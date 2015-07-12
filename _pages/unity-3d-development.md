@@ -2,6 +2,7 @@
 layout: page
 title: Unity 3D Development
 permalink: unity3d-development/
+categories: [Games]
 ---
 
 <div class="page-header">

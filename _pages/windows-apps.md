@@ -2,6 +2,7 @@
 layout: page
 title: Windows Apps Development
 permalink: windows-apps/
+categories: [Apps]
 ---
 
 <div class="page-header">

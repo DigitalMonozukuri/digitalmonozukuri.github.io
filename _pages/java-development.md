@@ -2,6 +2,7 @@
 layout: page
 title: Java Development
 permalink: java-development/
+categories: [Services]
 ---
 
 <div class="page-header">

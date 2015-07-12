@@ -2,6 +2,7 @@
 layout: page
 title: Windows Phone Development
 permalink: windows-phone-development/
+categories: [Apps]
 ---
 
 <div class="page-header">

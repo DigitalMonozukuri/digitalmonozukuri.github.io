@@ -16,9 +16,8 @@
 		<div class="container">
 			<nav class="aside-navigation">
 				<ul>
-					<li><a href="ieee-sessions.html">IEEE Sessions</a></li>
-					<li><a href="set-yearbook.html">SET Yearbook</a></li>
-					<li><a href="papers.html">Papers</a></li>
+					<li><a href="{{ site.url }}/ieee-sessions/">IEEE Sessions</a></li>
+					<li><a href="{{ site.url }}/papers/">Papers</a></li>
 				</ul>
 			</nav>
 			<nav class="social-navigation">
@@ -33,21 +32,42 @@
 		<div class="container">
 			<div class="col-16 hr-bottom">
 				<h1 id="site-title">
-					<!-- <a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a> -->
-					<img src="{{ site.url }}/assets/images/dm.png" alt="">
+					<a href="{{ site.url }}" title="{{ site.title }}">
+						<img src="{{ site.url }}/assets/images/dm.png" alt="">
+					</a>
 				</h1>
 				<nav class="main-navigation">
+					{% capture cpc %}{{ page.categories }}{% endcapture %}
 					<ul>
-						<li><a href="index.html">Home <span>About Us</span></a>
+						<li><a href="index.html">Home <span>About Us</span></a></li>
+						<li{% if cpc contains 'Games' %} class="current-menu-item" {% endif %}><a href="#">Games<span>Game Development</span></a>
 							<ul class="sub-menu">
-								<li><a href="link1.html">Android Apps</a></li>
-								<li><a href="link1.html">Windows Apps</a></li>
-								<li><a href="link1.html">iOS games</a></li>
-
+								{% for page in site.pages %}
+									{% if page.categories contains 'Games' %}
+										<li><a href="{{ page.url }}">{{page.title}}</a></li>
+									{% endif %}
+								{% endfor %}
 							</ul>
 						</li>
-						<li><a href="games.html">Games<span>Our Games</span></a></li>
-						<li><a href="papers.html">Papers</a></li>
+						<li{% if cpc contains 'Apps' %} class="current-menu-item" {% endif %}><a href="#">Apps<span>App Development</span></a>
+							<ul class="sub-menu">
+								{% for page in site.pages %}
+									{% if page.categories contains 'Apps' %}
+										<li><a href="{{ page.url }}">{{page.title}}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</li>
+						<li{% if cpc contains 'Services' %} class="current-menu-item" {% endif %}><a href="#">IT Services<span>Programming</span></a>
+							<ul class="sub-menu">
+								{% for page in site.pages %}
+									{% if page.categories contains 'Services' %}
+										<li><a href="{{ page.url }}">{{page.title}}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</li>
+
 					</ul>
 				</nav>
 			</div>

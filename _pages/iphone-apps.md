@@ -2,6 +2,7 @@
 layout: page
 title: iPhone Apps
 permalink: iphone-apps/
+categories: [Apps]
 ---
 
 <div class="page-header">

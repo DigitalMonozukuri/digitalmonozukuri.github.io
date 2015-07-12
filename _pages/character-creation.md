@@ -2,6 +2,7 @@
 layout: page
 title: Character Development
 permalink: character-creation/
+categories: [Games]
 ---
 
 <div class="page-header">

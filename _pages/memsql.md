@@ -2,6 +2,7 @@
 layout: page
 title: MemSQL
 permalink: memsql-development/
+categories: [Services]
 ---
 
 <div class="page-header">

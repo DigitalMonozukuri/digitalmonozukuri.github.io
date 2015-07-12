@@ -2,6 +2,7 @@
 layout: page
 title: Web Design Development
 permalink: web-design/
+categories: [Services]
 ---
 
 <div class="page-header">

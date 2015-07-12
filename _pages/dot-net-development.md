@@ -2,6 +2,7 @@
 layout: page
 title: .NET Development
 permalink: dot-net-development/
+categories: [Services]
 ---
 
 <div class="page-header">

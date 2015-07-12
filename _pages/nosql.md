@@ -2,6 +2,7 @@
 layout: page
 title: NoSQL
 permalink: nosql-development/
+categories: [Services]
 ---
 
 <div class="page-header">

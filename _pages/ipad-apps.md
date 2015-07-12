@@ -2,6 +2,8 @@
 layout: page
 title: iPad Apps
 permalink: ipad-apps/
+
+categories: [Apps]
 ---
 
 <div class="page-header">

@@ -2,6 +2,7 @@
 layout: page
 title: Android Apps Development
 permalink: android-apps/
+categories: [Apps]
 ---
 
 <div class="page-header">

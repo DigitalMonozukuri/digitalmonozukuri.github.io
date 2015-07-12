@@ -2,6 +2,8 @@
 layout: page
 title: Cocos 2D Game Development
 permalink: cocos-2d-game-development/
+
+categories: [Games]
 ---
 
 <div class="page-header">

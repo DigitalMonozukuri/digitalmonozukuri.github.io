@@ -2,6 +2,7 @@
 layout: page
 title: PHP Development
 permalink: php-development/
+categories: [Services]
 ---
 
 <div class="page-header">

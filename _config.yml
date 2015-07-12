@@ -25,6 +25,7 @@ show_drafts: null
 limit_posts: 0
 future:      true
 unpublished: false
+categories: [Apps, Games, Services]
 
 # Plugins
 whitelist: []

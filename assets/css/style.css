@@ -42,6 +42,8 @@ button {
 	box-shadow: none;
 	text-shadow: none;
 	border: 0;
+	padding: .5em 1em;
+	font-size: 1em;
 }
 
 button:hover,
@@ -58,6 +60,11 @@ button:focus {
 	background: #6e9b76;
 	color: #fff;
 	text-shadow: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
 
 /*--------------------------------------------------------------

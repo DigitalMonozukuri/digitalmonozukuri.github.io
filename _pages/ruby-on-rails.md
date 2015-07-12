@@ -2,6 +2,7 @@
 layout: page
 title: Ruby On Rails Development
 permalink: rubu-on-rails/
+categories: [Services]
 ---
 
 <div class="page-header">

@@ -2,6 +2,7 @@
 layout: page
 title: Android Development
 permalink: android-development/
+categories: [Games]
 ---
 
 <div class="page-header">

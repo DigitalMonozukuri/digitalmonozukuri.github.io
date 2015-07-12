@@ -2,6 +2,7 @@
 layout: page
 title: Java Hadoop
 permalink: java-hadoop/
+categories: [Services]
 ---
 
 <div class="page-header">
