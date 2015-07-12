@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ page.title }} | {{ site.title }}</title>
+	<meta name="description" content="{{ page.excerpt | strip_html }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+	<link rel="stylesheet" href="http://localhost:4000/assets/css/extras.css">
+	<link rel="canonical" href="{{ page.url }}" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header id="header">
+	<div class="header-top">
+		<div class="container">
+			<nav class="aside-navigation">
+				<ul>
+					<li><a href="ieee-sessions.html">IEEE Sessions</a></li>
+					<li><a href="set-yearbook.html">SET Yearbook</a></li>
+					<li><a href="papers.html">Papers</a></li>
+				</ul>
+			</nav>
+			<nav class="social-navigation">
+				<ul>
+					<li><a href="https://www.facebook.com/DigitalMonozukuri">Facebook</a></li>
+					<li><a href="https://www.twitter.com/DigitalMz">Twitter</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="header-main">
+		<div class="container">
+			<div class="col-16 hr-bottom">
+				<h1 id="site-title">
+					<a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a>
+				</h1>
+				<nav class="main-navigation">
+					<ul>
+						<li><a href="index.html">Home <span>About Us</span></a>
+							<ul class="sub-menu">
+								<li><a href="link1.html">Android Apps</a></li>
+								<li><a href="link1.html">Windows Apps</a></li>
+								<li><a href="link1.html">iOS games</a></li>
+
+							</ul>
+						</li>
+						<li><a href="games.html">Games<span>Our Games</span></a></li>
+						<li><a href="papers.html">Papers</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="content" class="container">
