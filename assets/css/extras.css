@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Index Page
+--------------------------------------------------------------*/
+
+.game-list {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 1em;
+}
+
+.game-list img {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right: 10px
+}
+
+.work-at-amazon img {
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: .5em;
+}
