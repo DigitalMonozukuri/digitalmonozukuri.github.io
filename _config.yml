@@ -3,11 +3,10 @@ source: .
 destination: ./_site
 plugins: ./_plugins
 layouts: ./_layouts
-data_source: ./_data
 collections: null
 
 ## Setup
-title: 'Digital Monozukuri'
+title: Digital Monozukuri
 tagline: 'Open Innovation'
 description: 'Software Engineers, Web developers, Game experts. We develop Websites, WordPress themes, Android Apps.'
 url: http://www.digitalmonozukuri.net
